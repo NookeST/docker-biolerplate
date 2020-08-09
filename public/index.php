@@ -9,5 +9,6 @@
 </head>
 <body>
 <h1>Nginx works!</h1>
+<?php phpinfo() ?>
 </body>
 </html>

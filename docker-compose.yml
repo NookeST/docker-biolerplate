@@ -10,3 +10,12 @@ services:
       - type: bind
         source: .
         target: /app
+
+  php-fpm:
+    build:
+      context: ./docker
+      dockerfile: ./php/Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /app
